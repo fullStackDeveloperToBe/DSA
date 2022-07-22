@@ -12,7 +12,7 @@ public class LinearSearch {
         for(int i=0;i<nums.length;i++) {
             if(nums[i] == ele) {
                 count++;
-                System.out.println(ele+" present at "+i+" index");
+                System.out.println(ele+" present at "+i+" index position");
             }
         }
         if(count == 0){System.out.println("element is not present");}
