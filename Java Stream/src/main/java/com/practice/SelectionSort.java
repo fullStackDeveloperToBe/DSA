@@ -17,7 +17,7 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {99,56,43,32,21,17,12,34,9,3,1,0};
+        int[] arr = {9,3,1,0};
         selectionSort(arr);
         for(int i=0;i<arr.length;i++) {
             System.out.print(arr[i]+" ");
